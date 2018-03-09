@@ -2,8 +2,12 @@
 var actorChars = {
   "@": Player,
   "o": Coin, // A coin will wobble up and down
-  "=": Lava, "|": Lava, "v": Lava  
+  "=": Lava, "|": Lava, "v": Lava 
+  "y": Floater
 };
+//if you comment out Floater it works but makes floater a wall, like I said in the comments.
+//It says Floater isn't initialized, but where is everything else initialized?
+
 
 function Level(plan) {
   // Use the length of a single row to set the width of the level
